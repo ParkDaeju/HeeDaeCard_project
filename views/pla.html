@@ -1,0 +1,292 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+<link rel="stylesheet" href="/reset2.css">
+<style type="text/css"> 
+    a { text-decoration: none; color: black; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+    a { text-decoration:none } 
+    </style> 
+
+<div class="whiteb1"></div>
+
+<div class="whitebb1"></div>
+<div class="user-name3">카드정보를 입력해주세요</div>
+
+<div class="user-name4">신청전에 확인하세요</div>
+
+<div class="user-name5">소요시간 1~3분</div>
+
+<div class="user-name6">본인명의 휴대폰</div>
+
+<div class="user-name7">본인명의 계좌</div>
+
+<div class="user-name9">HeeDaeCard [The Blue]</div>
+
+<div class="cardstyle">카드 스타일</div>
+
+<div class="cardstyle2">카드 브랜드</div>
+
+<div class="cardstyle3">신청인 정보</div>
+<div class="cardstyle4">성명</div>
+<div class="cardstyle5">영문</div>
+
+
+
+<div class="wrap">
+    <a href="/plafinal" class="button">다음</a>
+</div>
+<form>
+<div class="idid">
+<input type = "text" name = "id" size="34">
+</div>
+
+<div class="idid2">
+<input type ="text" name="en" size="10"
+maxlength ="10">
+<input type ="text" name="en2" size="20"
+maxlength ="20">
+</div>
+
+</form>
+
+<div class="fieldlist">
+    <label for="shipadd2">
+    <input type="radio" id="shipadd2" name="국내" />   
+    <div class="compacttext"></div>
+    </label>
+  </div>
+
+  <div class="fieldlist2">
+    <label for="shipadd3">
+    <input type="radio" id="shipadd3" name="해외" />   
+    <div class="compacttext"></div>
+    </label>
+  </div>
+
+<div class="help-tip">
+	<p>국내: 국내에서만 사용 가능<br>VISA: 해외에서도 사용 가능</p>
+</div>
+
+<style type='text/css'> 
+
+    .help-tip{
+    
+        position: absolute;
+    
+        left:41%;
+    
+        bottom:-7.3%;
+    
+        text-align: center;
+    
+        background-color: #BCDBEA;
+    
+        border-radius: 50%;
+    
+        width: 24px;
+    
+        height: 24px;
+    
+        font-size: 14px;
+    
+        line-height: 26px;
+    
+        cursor: default;
+    
+    }
+    
+     
+    
+    .help-tip:before{
+    
+        content:'?';
+    
+        font-weight: bold;
+    
+        color:#fff;
+    
+    }
+    
+     
+    
+    .help-tip:hover p{
+    
+        display:block;
+    
+        transform-origin: 100% 0%;
+    
+     
+    
+        -webkit-animation: fadeIn 0.3s ease-in-out;
+    
+        animation: fadeIn 0.3s ease-in-out;
+    
+     
+    
+    }
+    
+     
+    
+    .help-tip p{
+    
+        display: none;
+    
+        text-align: left;
+    
+        background-color: #1E2021;
+    
+        padding: 20px;
+    
+        width: 300px;
+    
+        position: absolute;
+    
+        border-radius: 3px;
+    
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    
+        right: -4px;
+    
+        color: #FFF;
+    
+        font-size: 13px;
+    
+        line-height: 1.4;
+    
+    }
+    
+     
+    
+    .help-tip p:before{
+    
+        position: absolute;
+    
+        content: '';
+    
+        width:0;
+    
+        height: 0;
+    
+        border:6px solid transparent;
+    
+        border-bottom-color:#1E2021;
+    
+        right:10px;
+    
+        top:-12px;
+    
+    }
+    
+     
+    
+    .help-tip p:after{
+    
+        width:100%;
+    
+        height:40px;
+    
+        content:'';
+    
+        position: absolute;
+    
+        top:-40px;
+    
+        left:0;
+    
+    }
+    
+     
+    
+    @-webkit-keyframes fadeIn {
+    
+        0% { 
+    
+            opacity:0; 
+    
+            transform: scale(0.6);
+    
+        }
+    
+     
+    
+        100% {
+    
+            opacity:100%;
+    
+            transform: scale(1);
+    
+        }
+    
+    }
+    
+     
+    
+    @keyframes fadeIn {
+    
+        0% { opacity:0; }
+    
+        100% { opacity:100%; }
+    
+    }​ 
+    
+    </style> 
+
+
+<h3></h3>
+<hr class="three">
+
+<h3></h3>
+<hr class="four">
+
+<style>
+    select {
+    position:absolute;
+    left:43%;
+    bottom:0%;
+    width: 270px;
+    padding: .8em .5em;
+    border: 1px solid #999;
+    font-family: inherit;
+    background: url('arrow.jpg') no-repeat 95% 50%;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+    
+    select::-ms-expand {
+        display: none;
+    }
+    
+    
+</style>
+
+
+<form>
+    <select id="BoxBox">
+    <option value="0">--- 선택하세요 ---</option>
+    <option value="1">HeeDaeCard [The Gold] 후불 교통카드</option>
+    <option value="2">HeeDaeCard [The Gold] 교통카드 X</option>
+    </select>
+</form>
+
+
+    
+<div class="box"></div>
+
+<div class="clock"></div>
+
+<div class="phone"></div>
+
+<div class="park"></div>
+
+<div class="plaH"></div>
+
+
+
+{% endblock %}

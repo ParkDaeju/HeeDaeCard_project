@@ -1,0 +1,28 @@
+body {
+	height: 100vh;
+	margin: 0;
+	background: linear-gradient(#ffffff 50%, #f8f8f8  30%);
+	}
+	p {
+	  position: absolute;
+	  top: 50%;
+	  left: 60%;
+	  transform: translate(-50%, -50%);
+	  margin: 0;
+	  color: #e3e4e4;
+	  font-size: 7vw;
+	  font-family: 'Open Sans', sans-serif;
+	  font-weight: 700;
+	  text-transform: uppercase;
+	  white-space: nowrap;
+	}
+	p::before {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  content: attr(data-split);
+	  height: 50%;
+	  color: #fff;
+	  overflow: hidden;
+	}
+	
